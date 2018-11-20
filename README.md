@@ -29,6 +29,7 @@
 1）安装Alun.AspNetCore.Log.Extensions的nuget，因为这里需要用到mongodb，所以安装MongoDB.Driver。
 
 2）添加mongodb的writelog类，来继承IWriteLog。
+
 ![alt text](http://alun-image.oss-cn-shenzhen.aliyuncs.com/github/Alun.AspNetCore.Log.Extensions/2.png)
 
 注意，我们在WriteLog方法中写日志，记录到mongodb中，此方法实现的是我们需要自定义的逻辑。这里把日志通过实体方法，持久化。
