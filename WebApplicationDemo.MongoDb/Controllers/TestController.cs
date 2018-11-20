@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace WebApplicationDemo.Controllers
+namespace WebApplicationDemo.MongoDb.Controllers
 {
-    public class TestController: Controller
+    public class TestController : Controller
     {
         //log
         private readonly ILogger _logger;

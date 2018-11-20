@@ -50,3 +50,7 @@ Alun.AspNetCore.Log.Extensions/obj/Debug/netcoreapp2.1/Alun.AspNetCore.Log.Exten
 .vs/Supercharger/WebApplicationDemo/codemap.dat
 .vs/Supercharger/WebApplicationDemo/global_history.dat
 .vs/Supercharger/WebApplicationDemo/workbench.dat
+/Alun.AspNetCore.Log.Extensions.MongoDb/bin/Debug/netcoreapp2.1
+/Alun.AspNetCore.Log.Extensions.MongoDb/obj
+/WebApplicationDemo.MongoDb/bin/Debug/netcoreapp2.1
+/WebApplicationDemo.MongoDb/obj
