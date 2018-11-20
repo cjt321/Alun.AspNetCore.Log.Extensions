@@ -36,7 +36,9 @@ namespace WebApplicationDemo.MongoDb
             //log start 添加mongodb的配置
             services.AddLogging(cfg =>
             {
-                cfg.AddNvLog(new LogConfiguration() { UseTraceLog = false, UseDebugLog = true, UseInformationLog = true, UseErrorLog = true, UseCriticalLog = true })
+                cfg.AddNvLog(
+                        new LogConfiguration() { UseTraceLog = false, UseDebugLog = true,
+                            UseInformationLog = true, UseErrorLog = true, UseCriticalLog = true })
                     .AddMongoDbLog("mongodb://xxx:xxx@xxx:27017", "MyLog");
 
             });
